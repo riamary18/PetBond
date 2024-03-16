@@ -4,7 +4,7 @@ from langchain.chains import LLMChain
 from langchain_community.tools import DuckDuckGoSearchResults
 import streamlit as st
 
-api_key="AIzaSyDGPiQvM1bSoIJWcMHSfGKbvRpgm0IP8vA"
+api_key=""
 llm=GoogleGenerativeAI(model="models/text-bison-001",google_api_key=api_key)
 
 with open('dog_breed.txt', 'r') as file:
